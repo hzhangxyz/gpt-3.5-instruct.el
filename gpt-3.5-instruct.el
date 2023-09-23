@@ -55,7 +55,6 @@
     (url-retrieve
      url
      (lambda (status parent-buffer)
-       (message (buffer-string))
        (goto-char (point-min))
        (re-search-forward "^$")
        (delete-region (point) (point-min))
