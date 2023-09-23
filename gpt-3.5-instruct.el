@@ -45,6 +45,7 @@
                               (temperature . ,gpt-temperature)
                               (stop . ,gpt-stop)
                               (echo . t)
+                              (max_tokens . 256)
                               (n . 1))))
          (url-request-method "POST")
          (url-request-extra-headers
